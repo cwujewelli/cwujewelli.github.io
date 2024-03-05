@@ -78,7 +78,20 @@ header, footer {
 
 
 /* Imported Typfaces */
-
+@font-face {
+    font-family: "montserrat";
+    src:
+      url("../fonts/montserrat-regular.ttf") format("TrueType");
+      font-weight: normal;
+      font-style: normal;
+  }
+  @font-face {
+    font-family: "josefinslab";
+    src:
+      url("../fonts/josefinslab-regular.ttf") format("TrueType");
+      font-weight: normal;
+      font-style: normal;
+  }
 
 
 
@@ -86,7 +99,9 @@ header, footer {
 /* Typography Styles */
 
 
-
+html {
+    font-family: montserrat, Arial, Helvetica, sans-serif;
+}
 
 
 
