@@ -47,13 +47,48 @@
 
 
 /* ------ START WRITING YOUR CODE BELOW ------ */
-html {}
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size:16px;
+}
+
+body {
+    margin: 1.5rem auto;
+    width:90%;
+    min-width:56.25rem;
+}
+@font-face {
+    font-family: "montserrat";
+    src:
+      url("../fonts/sans-serif/montserrat-regular.ttf") format("TrueType");
+      font-weight: normal;
+      font-style: normal;
+  }
+  @font-face {
+    font-family: "josefinslab";
+    src:
+      url("../fonts/serif/josefinslab-regular.ttf") format("TrueType");
+      font-weight: normal;
+      font-style: normal;
+  }
+html {
+    font-family: montserrat, Arial, Helvetica, sans-serif;
+}
 
 h1 {
     padding: 1.25 rem;
-    
+    letter-spacing: .125rem;
+    font-family: Josefinslab, Arial, Helvetica, sans-serif;
+    font-size: 3.75rem;
+    margin: 1.125rem;
+    text-align: center;
 }
-
+nav {
+    border-top: solid black .5rem;
+}
 h2 {}
 
 h3 {}
