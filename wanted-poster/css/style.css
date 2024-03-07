@@ -74,6 +74,7 @@ h2 {
     text-shadow:.09375rem .09375rem .09375rem #000;
     font-family:'Alfa Slab One', Garamond, serif;
     text-align:center; 
+    font-weight: normal;
 }
 
 h3 {
@@ -84,6 +85,7 @@ h3 {
     color:black;
     font-family:'Alfa Slab One', Garamond, serif;
     text-align:center;
+    font-weight: normal;
 }
 
 h4 {
@@ -95,7 +97,8 @@ h4 {
     text-shadow:.09375rem .09375rem .09375rem #000;
     font-family:'Alfa Slab One', Garamond, serif;
     text-align:center;
-    padding:0 0 18px 0
+    padding:0 0 1.125rem 0;
+    font-weight: normal;
 }
 
 h5 {
@@ -107,19 +110,20 @@ h5 {
     color:#FFF;
     font-family:'Alfa Slab One', Garamond, serif;
     text-align:center;
-    padding:8px 8px 8px 8px; 
+    padding:0.5rem 0.5rem 0.5rem 0.5rem; 
+    font-weight: normal;
 }
 
 
 /* Section & Paragraph */
 
 section {
-    margin:8px 0 0 0; 
+    margin:0.5rem 0 0 0; 
 }
 
 p {
-    margin:16px auto;
-    padding:0 16px;
+    margin:1rem auto;
+    padding:0 1rem;
     width: 90%;
     text-align:left;
 }
@@ -130,15 +134,15 @@ p {
 img {
    width: 100%;
    margin:0 auto;
-   max-width:800px; 
+   max-width:50rem; 
 }
 
 figure {
-    margin:0 0 32px 0
+    margin:0 0 2rem 0
 }
 
 figcaption {
-    padding:8px 0 0 0;
+    padding:0.5rem 0 0 0;
     text-align:right;
 }
 
@@ -146,7 +150,7 @@ figcaption {
 /* Footer */
 
 footer {
-    padding:16px 16px;
+    padding:1rem 1rem;
     color:#333;
 }
 
