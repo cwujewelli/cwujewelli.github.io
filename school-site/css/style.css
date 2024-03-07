@@ -103,32 +103,114 @@ html {
     font-family: montserrat, Arial, Helvetica, sans-serif;
 }
 
+h1 {
+    letter-spacing: .125rem;
+    font-family: Josefinslab, Arial, Helvetica, sans-serif;
+    font-size: 3.75rem;
+    margin: 1.125rem;
+    text-align: center;
+}
+
+h2 {
+    letter-spacing: .125rem;
+    font-family: Josefinslab, Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+
+h2 + p {
+    font-size: .75rem;
+    letter-spacing: .031rem;
+    word-spacing: .125rem;
+    text-indent: 1.5rem;
+}
+
+p {
+    font-size: .75rem;
+    letter-spacing: .031rem;
+    word-spacing: .125rem;
+}
+
+li {
+    font-size: .75rem;
+    letter-spacing: .031rem;
+    word-spacing: .125rem;
+}
+
+figcaption {
+    font-size: .75rem;
+    margin-bottom: 2rem;
+}
 
 
 /* Link Styling */
 
+a {
+    outline-style:none;
+    
+}
 
+a:link,
+a:visited {
+    outline-style:none;
+    color: #33658A
+}
 
-
-
+a:focus,
+a:hover {
+    outline-style:none;
+    text-decoration: none;
+}
 
 /* List Styling */
 
+ul {
+    margin: 1rem 0;
+    list-style-type: square;
+}
 
+ol {
+    margin: 1rem 0;
+    list-style-type: lower-alpha;
+}
 
-
+.long-list a:hover {
+    text-transform: uppercase;
+}
 
 
 /* Navigation Menu */
 
+nav {
+    padding-left: 0;
+    margin-top: .25;
+}
 
+nav a {
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    line-height: 3;
+    text-align: center;
+    font-size: 1.125rem;
+    margin-bottom: 1.5rem;
+    border: solid;
+    width: .063rem;
+    color: #33658A;
+}
 
+nav a:focus,
+nav a:hover {
+    color: #FFF;
+    background-color: #000;
+}
 
-
+nav a:active 
 
 /* Footer Styles */
 
-
+footer {
+    text-align: center;
+}
 
 
 
