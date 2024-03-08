@@ -90,8 +90,8 @@ h1 {
 nav {
     padding-left: 0;
     margin-top: .25;
-    border-top: solid black .5rem;
-    border-bottom: solid black .5rem;
+    border-top: .125rem solid black;
+  border-bottom: .125rem solid black;
 }
     
 nav a {
