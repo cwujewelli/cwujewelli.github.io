@@ -7,15 +7,14 @@
         
         
         <!-- Give your page a title. -->
-        <tittle>CTU | Blog</tittle>
         
         <!-- Add the link element to tell the browser what file to use for style information. -->
         <link rel="stylesheet" href="css/style.css">
-        
+        <tittle>CTU | Blog</tittle>
     </head>
     <body>
         <header>
-            <h1>Tofu <span class="highlight">CHARCOAL</span> unicorns</h1> 
+            <h1>Tofu<span>CHARCOAL</span>unicorns</h1> 
             
             <!-- Add a level 1 heading to display three words. Use a span element to highlight the second word. Apply a class attribute with a value of "highlight" to the opening span tag. -->
             
@@ -28,7 +27,11 @@
         
         <nav>
             
-            <a href="#">About</a><a href="#">Blog</a><a href="#">Merch</a><a href="#">History</a><a href="#">Contact</a>
+                <a href="#">About</a>
+                <a href="#" id="blog">Blog</a>
+                <a href="#">Merch</a>
+                <a href="#">History</a>
+                <a href="#">Contact</a>
             
         </nav>
 
@@ -43,9 +46,10 @@
             
             <section class="main-section">
                 <article>
+                    <div class="box-2">
                      <!-- Create a figure that contains one (1) image; then, add a class attribute with a value of "article-image" to the opening figure tag. -->
-                    <figure class="article-image">
-                        <img src="images/stag.jpg" alt="fading picture of women looking to sky with hair covering face">
+                     <figure class="article-image">
+                        <div class="box-1"><img src="images/stag.jpg" alt="fading picture of women looking to sky with hair covering face"></div>
                     </figure>
                     <!-- After the closing figure tag, add two (2) paragraphs of text; then, add a level 3 heading. -->
                      <p>I'm baby church-key pok pok aesthetic adaptogen drinking vinegar single-origin coffee salvia hell of enamel pin pickled celiac. Gentrify sus dreamcatcher, microdosing thundercats kombucha etsy venmo celiac poutine man bun same wolf +1. Vexillologist yuccie woke street art. Live-edge poke solarpunk street art chillwave schlitz church-key knausgaard coloring book hexagon kickstarter humblebrag health goth.</p>  
@@ -62,47 +66,62 @@
                     <p>Squid woke vibecession, copper mug fanny pack heirloom shaman messenger bag try-hard vape master cleanse solarpunk everyday carry selfies. IPhone trust fund roof party affogato chia thundercats whatever. Bruh neutral milk hotel fanny pack craft beer viral jawn tofu banjo, hot chicken biodiesel la croix normcore. Tbh salvia slow-carb ethical yes plz before they sold out YOLO twee selvage bespoke same 8-bit disrupt vice tattooed. Bodega boys selfies organic etsy sriracha hexagon normcore post-ironic bushwick hell of locavore deep v offal taxidermy.</p>
                     
                     <!-- Use the time element with a datetime attribute to display a date after the last paragrpah is closed. -->
-                    <time class="datetime"> 24 September, 2020</time>
+                    <time class="datetime"><em>24 September, 2020</em></time>
+                  
                     
                     <!-- Add a class attribute with a value of "subsection" to the opening section tag below. -->
                     
                     <!-- Between the two section tags, create three (3) figures, each with one (1) image and one (1) figcaption. -->
                     <section class="subsection">
-                        <figure class="fig-1">
-                            <img src="images/eren-30s.jpg" src="black and white head shot of women">
-                            <figcaption>Twee, green banh mi la criox.</figcaption>
-                        </figure>
-                        <figure class="fig-2">
-                            <img src="images/industrial-city-2.jpg" src="light poles with traslucent image of mans face">
-                            <figcaption>Sartorial scenester roof party.</figcaption>
-                        </figure>
-                        <figure class="fig-3">
-                            <img src="images/in-nomino.jpg" src="man wearing priest oufit reading bible">
-                            <figcaption>Seitan succlents, woke wolf migas.</figcaption>
-                        </figure>
+                        <div class="row">
+                            <div class="column">
+                            <figure>
+                                <img src="images/eren-30s.jpg" src="black and white headshot of a women" id="photos-1" style="width: 100%">
+                                <figcaption>Twee, green banh mi la criox.</figcaption>
+                            </div>
+                            <div class="column">
+                            </figure>
+                            <figure class="fig-2">
+                                <img src="images/industrial-city-2.jpg" src="light poles with traslucent image of mans face" id="photos-1" style="width: 100%">
+                                <figcaption>Sartorial scenester roof party.</figcaption>
+                            </figure>
+                            </div>
+                            <div class="column">
+                            <figure class="fig-3">
+                                <img src="images/in-nomino.jpg" src="man wearing priest oufit reading bible" id="photos-1" style="width: 100%">
+                                <figcaption>Seitan succlents, woke wolf migas.</figcaption>
+                            </figure>
+                            </div>
+                        </div>
                     </section>
+                  
                     
                     <button type="button">Subscribe</button>
+                    
                     <!-- Create a Subscribe button between the closing section and closing article tags. -->
 
                 
                 </article>
-                <aside>
+                <aside>   
+                    <div class ="verticalLine">
                     <!-- Add a level 3 heading, followed by an image and a paragraph. --> 
-                    <h3>Freegan tote bag</h3>
-                    <img src="images/industrial.jpg" src="photo of tracter with trasnlucent photo of girl">
-                    <p>Brunch 90's DSA, man bun chartreuse seitan selvage helvetica. Mumblecore ascot echo park, everyday carry quinoa selvage bushwick. Air plant vegan YOLO, organic Brooklyn church-key iPhone mixtape hexagon. Gastropub sartorial praxis, before they sold out pabst kale chips austin chicharrones keffiyeh gluten-free flannel man bun portland four loko glossier. Fingerstache salvia celiac fanny pack cray iPhone affogato dreamcatcher lyft. Banh mi af tote bag cliche listicle same bicycle rights live-edge schlitz distillery.</p>
-                    <a href="#" class="expand">&#x26AB;</a>
+                        <div class="box-3">
+                        <h4>Freegan tote bag</h4>
+                        <img src="images/industrial.jpg" src="photo of tracter with trasnlucent photo of girl" id="photos-2">
+                        <div class="p-1">Brunch 90's DSA, man bun chartreuse seitan selvage helvetica. Mumblecore ascot echo park, everyday carry quinoa selvage bushwick. Air plant vegan YOLO, organic Brooklyn church-key iPhone mixtape hexagon. Gastropub sartorial praxis, before they sold out pabst kale chips.</div>
+                        <div class="dots"><a href="#" class="expand">&#x26AB;</a> <a href="#" class="expand">&#x26AB;</a> <a href="#" class="expand">&#x26AB;</a></div>
                     <!-- Add another level 3 heading, followed by an image and a paragraph. -->
-                    <h3>Readymade microdosing trust fund.</h3>
-                    <img src="images/routine.jpg" src="clothes line hanging clothes with traslucent photo of women">
-                    <p>Green juice cliche tilde cred hammock put a bird on it next level craft beer jawn keffiyeh seitan small batch glossier occupy. Semiotics mixtape freegan, migas pug fam plaid helvetica vape taxidermy craft beer ugh YOLO sus. Ramps vice bespoke vegan jianbing sustainable cloud bread bitters. Sustainable tofu craft beer, fam farm-to-table umami YOLO. Synth retro poutine hashtag farm-to-table godard vexillologist vegan lomo. Viral yes plz small batch unicorn.</p>
-                    <a href="#" class="expand">&#x26AB;</a>
+                        <h4>Readymade microdosing trust fund.</h4>
+                        <img src="images/routine.jpg" src="clothes line hanging clothes with traslucent photo of women" id="photos-2">
+                        <div class="p-2">Green juice cliche tilde cred hammock put a bird on it next level craft beer jawn keffiyeh seitan small batch glossier occupy. Semiotics mixtape freegan, migas pug fam plaid helvetica vape taxidermy craft beer ugh YOLO sus.</div>
+                        <div class="dots"><a href="#" class="expand">&#x26AB;</a> <a href="#" class="expand">&#x26AB;</a> <a href="#" class="expand">&#x26AB;</a></div>
                     <!-- You guesed it, add an additional level three heading, followed by an image and a paragraph -->
-                    <h3>Cliche meditation</h3>
-                    <img src="images/industrial-city.jpg" src="electricol cordes with image of translucent girl">
-                    <p>Whatever JOMO grailed ramps four dollar toast roof party sus tacos hella big mood same cliche. Church-key la croix synth mixtape +1, stumptown hot chicken meh vape skateboard. Wayfarers wolf man braid, godard man bun flexitarian vegan mixtape air plant poke affogato hell of snackwave thundercats hashtag. Pop-up hot chicken tote bag listicle portland lumbersexual. Unicorn authentic meditation la croix iceland semiotics. Tumblr blue bottle tumeric hoodie squid snackwave semiotics unicorn adaptogen austin. Mlkshk authentic raclette, hoodie yes plz vibecession lo-fi jawn JOMO.</p>
-                    <a href="#" class="expand">&#x26AB;</a>
+                        <h4>Cliche meditation</h4>
+                        <img src="images/industrial-city.jpg" src="electricol cordes with image of translucent girl" id="photos-2">
+                        <div class="p-3">Whatever JOMO grailed ramps four dollar toast roof party sus tacos hella big mood same cliche. Church-key la croix synth mixtape +1, stumptown hot chicken meh vape skateboard. Wayfarers wolf man braid, godard man bun flexitarian vegan mixtape air plant poke affogato hell of snackwave thundercats hashtag. </div>
+                        <div class="dots"><a href="#" class="expand">&#x26AB;</a> <a href="#" class="expand">&#x26AB;</a> <a href="#" class="expand">&#x26AB;</a></div>
+                        </div>
+                    </div>
                     <!-- Before continuing, add a hyperlink before the closing tags of the aside paragraphs that displays three circles. Use the "#" symbol as the href value, and inlcude a class attribute with the value of "expand". Note: The code to use for a cirle is:
 
                         &#x26AB;  
@@ -117,10 +136,12 @@
             
             
             <!-- Add a paragraph with the copyright and a link to an email address. --->
-            <p></p>
+            <p class="email">
+                @ 2020 <a href="email" id="link">Sustainable Crucifix Swag</a>
+            </p>
             
             <!-- Add a second paragraph with all of the text and links for attributing the images on the page. Make sure to use the "ideal" attribution from Creative Commons. -->
-            
+            <p class="attribute"><a href="https://search.creativecommons.org/photos/01e5532a-d0ab-4366-82e1-d7026fed78c9" id="photolink">"Stag"</a> , <a href="https://search.creativecommons.org/photos/e300031e-b972-4fbb-9feb-5cd1cfa6fc71" id="photolink">"Industrial"</a> , <a href="https://search.creativecommons.org/photos/12407f55-0248-4dc0-a676-73fe85dd85e3" id="photolink">"Routine"</a> , <a href="https://search.creativecommons.org/photos/788f8539-8aba-45d4-b002-9ae7d97e0d9e" id="photolink">"Eren 30's"</a> , <a href="https://search.creativecommons.org/photos/3abb49b9-ebf3-4d88-ae53-4d110fda2344 " id="photolink">"In Nomino"</a> , <a href="https://search.creativecommons.org/photos/e300031e-b972-4fbb-9feb-5cd1cfa6fc71" id="photolink">"Industrial City"</a> , and <a href="https://search.creativecommons.org/photos/16618e0e-f62e-4166-88d9-ed156e1aeb76" id="photolink">"Industrial City <br> II</a> by <a href="#" id="photolink"> Sasha Aim </a>licensed under<a href="https://creativecommons.org/licenses/by-nc-sa/2.0/deed.en" id="photolink"> CC BY-NC-SA 2.0</p>
             
         </footer>
     </body>
